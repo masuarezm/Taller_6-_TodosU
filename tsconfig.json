@@ -1,0 +1,12 @@
+{
+    "type": "module",
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": ["src/**/*.ts", "src/app.ts", "src/routes/patientRoutes.ts", "src/routes/index.ts", "src/routes/doctorRoutes.ts", "src/routes/appointmentRoutes.ts", "src/models/appointmentModel.ts", "src/models/doctorModel.ts", "src/models/patientModel.ts", "src/controllers/appointmentController.ts", "src/controllers/doctorController.ts", "src/controllers/patientController.ts", "src/config/db.ts"],
+    "exclude": ["node_modules"]
+  }
